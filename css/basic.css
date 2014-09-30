@@ -13,16 +13,19 @@ body {
 #topbar {
     height:220px;
     background-image:url(pics/coffey.jpg);
+    background-position:bottom;
+    background-repeat:no-repeat;
     background-color:#51473d;
     color:#FFF;
+    text-align:right;
 }
 
 #menu {
-    
+    background-color:#51473d;
 }
 
 #content {
-    
+    background-color:#eae7d2;
 }
 
 #maincontent {
@@ -36,3 +39,4 @@ body {
 #bottomcontent {
     float:left;
 }
+
