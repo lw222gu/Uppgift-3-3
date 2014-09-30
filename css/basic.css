@@ -1,1 +1,38 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+body {
+    font-size:1em;
+    font-family:"Verdana", sans-serif;
+}
+
+#container {
+    margin: 0 auto 0 auto;
+    max-width:600px;
+}
+
+#topbar {
+    height:220px;
+    background-image:url(pics/coffey.jpg);
+    background-color:#51473d;
+    color:#FFF;
+}
+
+#menu {
+    
+}
+
+#content {
+    
+}
+
+#maincontent {
+    float:left;
+    max-width:370px;
+}
+
+#subcontent {
+}
+
+#bottomcontent {
+    float:left;
+}
