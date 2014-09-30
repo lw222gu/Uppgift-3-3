@@ -66,6 +66,8 @@ h1, h2 {
 
 h1 {
     margin-top:0px;
+    font-size:2em;
+    line-height:1em;
 }
 
 h2 {
@@ -95,5 +97,12 @@ ul {
     font-size:0.8em;
 }
 
-li {
+#subcontent p {
+    font-size:0.5em;
+    line-height:2.2em;
+}
+
+#subcontent h1 {
+    font-size:1.2em;
+    line-height:2.2em;
 }
