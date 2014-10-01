@@ -25,6 +25,9 @@ body {
 
 #menu {
     background-color:#51473d;
+    padding-bottom:0px;
+    height:40px;
+    margin-top:-13px;
 }
 
 #content {
@@ -58,6 +61,8 @@ body {
     font-style:italic;
 }
 
+/* Typography - text and color */
+
 h1, h2 {
     font-family:"Times New Roman", serif;
     color:#797066;
@@ -73,7 +78,7 @@ h1 {
 h2 {
     font-size:1em;
     line-height:1.2em;
-
+    margin-bottom:0em;
 }
 
 p {
@@ -86,14 +91,10 @@ a {
     color:#797066;
 }
 
-img {
-    float:left;
-    padding-right:5px;
-}
-
 ul {
     list-style-type:none;
     padding-left:0px;
+    margin-top:0em;
     font-size:0.8em;
 }
 
@@ -105,4 +106,46 @@ ul {
 #subcontent h1 {
     font-size:1.2em;
     line-height:2.2em;
+}
+
+/* Pictures */
+
+img {
+    float:left;
+    padding-right:5px;
+}
+
+/* Menu */
+
+#menu ul {
+    padding-left:10px;
+
+}
+
+#menu li {
+    float:left;
+    background-color:#707070;
+    color:#FFF;
+    margin-right:2px;
+    margin-top:4px;
+
+}
+
+#menu a {
+    text-decoration:none;
+    text-transform:capitalize;
+    color:#FFF;
+    display:block;
+    padding:10px;
+}
+
+#menu a:hover {background-color:#909090;}
+
+#menu li.active a {
+    background-color:#eae7d2;
+    color:#707070;
+}
+
+#menu > a {
+    display:none;
 }
